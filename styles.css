@@ -1,0 +1,45 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  margin-left: 30px;
+  background-color: rgb(30, 30, 30);
+  color: ghostwhite;
+}
+
+img {
+  border: solid ghostwhite;
+  border-radius: 5px;
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+  float: left;
+  margin-right: 25px;
+}
+
+div.float {
+  float: left;
+}
+
+div.nofloat {
+  clear: left;
+}
+
+div.center {
+  display: flex;
+  align-items: center;
+}
+
+p.small {
+  font-size: 12px;
+}
+
+i {
+  font-size: 20px;
+  margin-right: 10px;
+  float: left;
+}
+
+#school:hover,
+#university:hover {
+  cursor: pointer;
+}
